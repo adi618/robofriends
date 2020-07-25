@@ -1,5 +1,5 @@
 {
-  "homepage": "https://adi618.github.io/robofriends",
+  "homepage": "https://adi618.github.io/robofriends/",
   "name": "robofriendsnew",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "tachyons": "^4.12.0"
   },
   "scripts": {
+    "predeploy": "npm start build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
